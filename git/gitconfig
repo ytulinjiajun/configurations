@@ -1,0 +1,14 @@
+[user]
+	name = ytulinjiajun
+	email = ytulinjiajun@163.com
+[alias]
+    sta = status
+    ci = commit -a -v
+    rmt = remote add origin
+    ps = push origin
+    co = checkout
+    br = branch
+	throw = reset --hard HEAD
+    mg = merge --no-ff
+    cl = clone
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
